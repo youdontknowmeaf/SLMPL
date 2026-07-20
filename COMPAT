@@ -1,0 +1,11 @@
+Tested C libraries:
+GlibC 2.42-0ubuntu3.1
+MUSL 1.2.5-r23
+
+Tested compilers:
+GCC (GNU C Compiler)
+TCC (Tiny C Compiler)
+PCC (Portable C Compiler)
+
+Tested C standards:
+C89

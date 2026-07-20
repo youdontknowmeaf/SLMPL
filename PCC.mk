@@ -1,6 +1,6 @@
-CC = gcc -std=c89 -pedantic
-SRC = SRC/test.c
-CFLAGS = -Wall -Wextra -O2
+CC = pcc
+SRC = SRC/main.c
+CFLAGS = -O2
 CINCLUDE = -I./INCLUDE -I/usr/include -D_GNU_SOURCE=1 -D_REENTRANT
 CLIBS = -L./LIB -L/usr/lib/x86_64-linux-gnu -lSLMPL -lSDL -lGL
 

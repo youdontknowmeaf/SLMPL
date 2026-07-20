@@ -19,6 +19,7 @@ int main(int argc, char *argv[]) {
 
 		singlecolor_draw_triangle(100, 10, 300, 50, 150, 70, 1.0f, 1.0f, 0.0f);
 		singlecolor_draw_rect(20, 20, TEST, 50, 1.0f, 0.0f, 0.0f);
+		singlecolor_draw_line(1, 1, 639, 479, 1.0f, 0.0f, 0.0f);
 
 		goto_next_frame();
 	}
