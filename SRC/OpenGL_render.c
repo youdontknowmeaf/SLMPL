@@ -21,13 +21,13 @@ void singlecolor_draw_rect(float x, float y, float w, float h, float R, float G,
     glBegin(GL_TRIANGLES);
     glColor3f(R, G, B);
     glVertex2f(x, y);
-    glVertex2f(x+h, y);
-    glVertex2f(x, y+w);
+    glVertex2f(x+w, y);
+    glVertex2f(x, y+h);
 
     glColor3f(R, G, B);
-    glVertex2f(x, y+w);
-    glVertex2f(x+h, y+w);
-    glVertex2f(x+h, y);
+    glVertex2f(x, y+h);
+    glVertex2f(x+w, y+h);
+    glVertex2f(x+w, y);
     glEnd();
 }
 
