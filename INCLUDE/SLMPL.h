@@ -15,6 +15,7 @@
     int window_should_close();
     int get_pressed_key();
     void goto_next_frame();
+    int check_collision_rect_rect(int x1, int y1, int w1, int h1, int x2, int y2, int w2, int h2);
     /* Initialization functions */
     void init_standarized_coordinates(int W, int H, int state);
     int init_video(int W, int H, int colormode, char *wintitle, char *iconpath);
